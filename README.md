@@ -1,0 +1,2 @@
+# React useEffect Cleanup Issue
+This repository demonstrates a subtle issue with the React `useEffect` hook's cleanup function.  In scenarios where a component unmounts before a timeout completes (e.g., rapid navigation), the cleanup function might not execute, leading to memory leaks.  The solution demonstrates a more robust approach.
